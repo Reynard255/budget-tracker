@@ -5,6 +5,6 @@ App should open with two input boxes, a submit button, and a button to display a
 The first input box should have placeholder text of "Price". This is where the user will input the amount of the purchase. The input box should accept integers and currency symbols. The input should be parsed as an integer and a separate currency symbol, creating two values. 
 The second input box should have placeholder text of "Label". This is where the user will input text to label the purchase, for example the name of the item bought, the name of the store, the reason it was purchased. The input should be stored as a string.
 
-The submit button should push the values in the above input boxes to the master budget file. If either text box is missing an input it should prompt the user to input a value before submitting, with a small pop up.
+The submit button should push the values in the above input boxes to the master budget file. If either text box is missing an input it should prompt the user to input a value before submitting, with a speech bubble pop up, and the input box colors should change red to indicate a failed input.
 
 The master budget file will exist as a plaintext spreadsheet file, separate from the program but in the same folder as it, so it can be accessed at any time from outside of the app.
