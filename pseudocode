@@ -1,6 +1,6 @@
 Pseudocode
 
-App should open with two input boxes, a submit button, and a button to display all data input to date.
+App should open with two input boxes, a submit button, and a button to display all data input to date. All three should be centered in the middle of the screen: first the two input boxes, Price followed by Label, then the submit button below.
 
 The first input box should have placeholder text of "Price". This is where the user will input the amount of the purchase. The input box should accept integers and currency symbols. The input should be parsed as an integer and a separate currency symbol, creating two values. 
 The second input box should have placeholder text of "Label". This is where the user will input text to label the purchase, for example the name of the item bought, the name of the store, the reason it was purchased. The input should be stored as a string.
@@ -8,3 +8,5 @@ The second input box should have placeholder text of "Label". This is where the 
 The submit button should push the values in the above input boxes to the master budget file. If either text box is missing an input it should prompt the user to input a value before submitting, with a speech bubble pop up, and the input box colors should change red to indicate a failed input.
 
 The master budget file will exist as a plaintext CSV spreadsheet file, separate from the program but in the same folder as it, so it can be accessed at any time from outside of the app.
+
+Color scheme should follow system light/dark mode cues. When in light mode colors should still be easy on the eyes.
